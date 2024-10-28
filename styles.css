@@ -1,0 +1,262 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 15px 20px;
+  text-align: center;
+}
+
+nav {
+  margin: 15px 0;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #333;
+  color: white;
+}
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.skills-list {
+  flex: 1;
+  margin-right: 20px; /* Space between skills and bio */
+}
+
+.bio {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.profile-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.skill {
+  margin-bottom: 20px;
+}
+
+.progress {
+  background: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background: #4caf50;
+  height: 20px;
+  color: white;
+  text-align: center;
+  line-height: 20px; /* Center the text vertically */
+  transition: width 0.5s; /* Smooth transition for the progress bar */
+}
+/* Contact Form Styles */
+.contact-form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-color: #4caf50; /* Change border color on focus */
+  outline: none; /* Remove outline */
+}
+
+.submit-button {
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background 0.3s;
+  font-size: 16px;
+}
+
+.submit-button:hover {
+  background: #45a049; /* Darker green on hover */
+}
+/* Home Page Styles */
+.hero {
+  background: #4caf50;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background: white;
+  color: #4caf50;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.cta-button:hover {
+  background: #f1f1f1; /* Light gray on hover */
+}
+
+.about {
+  margin-bottom: 20px;
+}
+
+.skills-summary {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.skills-summary ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills-summary li {
+  background: #e0e0e0;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.projects {
+  margin-bottom: 20px;
+}
+
+.project-card {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px 0;
+  transition: box-shadow 0.3s;
+}
+
+.project-card:hover {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.project-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #4caf50;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
+/* About Page Styles */
+.about-section {
+  margin: 40px 0;
+}
+
+.bio {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+  border: 3px solid #4caf50; /* Green border for the image */
+}
+
+.bio-text {
+  max-width: 600px; /* Limit the width for better readability */
+}
+
+.skills-summary {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.skills-summary ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills-summary li {
+  background: #e0e0e0;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.aspirations {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+}
